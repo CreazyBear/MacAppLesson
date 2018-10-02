@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="2VS-OJ-wNk" customClass="XWCheckboxCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="14"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JNc-qe-asl">
+                    <rect key="frame" x="-2" y="-2" width="104" height="18"/>
+                    <buttonCell key="cell" type="check" title="Check" bezelStyle="regularSquare" imagePosition="only" inset="2" id="j3Z-aF-JRQ">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JNc-qe-asl" secondAttribute="trailing" id="6Gc-RH-ahl"/>
+                <constraint firstAttribute="bottom" secondItem="JNc-qe-asl" secondAttribute="bottom" id="Isz-YJ-NgI"/>
+                <constraint firstItem="JNc-qe-asl" firstAttribute="top" secondItem="2VS-OJ-wNk" secondAttribute="top" id="npS-Rp-FFs"/>
+                <constraint firstItem="JNc-qe-asl" firstAttribute="leading" secondItem="2VS-OJ-wNk" secondAttribute="leading" id="rjR-JF-3fJ"/>
+            </constraints>
+            <connections>
+                <outlet property="checkBox" destination="JNc-qe-asl" id="Cy1-8D-Awk"/>
+            </connections>
+        </tableCellView>
+    </objects>
+</document>

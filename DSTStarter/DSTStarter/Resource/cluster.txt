@@ -1,0 +1,21 @@
+[GAMEPLAY]
+game_mode = xw_game_mode
+max_players = xw_max_players
+pvp = xw_pvp
+pause_when_empty = true
+vote_enabled = false
+[NETWORK]
+lan_only_cluster = false
+offline_cluster = xw_offline_cluster
+cluster_description = xw_cluster_description
+cluster_name = xw_cluster_name
+cluster_intention = xw_cluster_intention
+cluster_password = xw_cluster_password
+[MISC]
+console_enabled = true
+[SHARD]
+shard_enabled = true
+bind_ip = 127.0.0.1
+master_ip = 127.0.0.1
+master_port = xw_master_port
+cluster_key = defaultPass

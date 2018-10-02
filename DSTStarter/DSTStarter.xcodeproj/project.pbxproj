@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6460CEB0174804517F87B8 /* libPods-DSTStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C83E03E7181B6DB6955D3642 /* libPods-DSTStarter.a */; };
+		A50A45FB202CA5FB0068ED82 /* XWMainConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50A45F9202CA5FB0068ED82 /* XWMainConfigViewController.m */; };
+		A50A45FC202CA5FB0068ED82 /* XWMainConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50A45FA202CA5FB0068ED82 /* XWMainConfigViewController.xib */; };
+		A532391B202C94C3008E68F6 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A532391A202C94C3008E68F6 /* Utils.m */; };
+		A532391F202CA1DD008E68F6 /* XWMainConfigurationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A532391E202CA1DD008E68F6 /* XWMainConfigurationModel.m */; };
+		A536371A1F8732380012AF32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53637181F8732380012AF32 /* main.m */; };
+		A536371E1F8732B00012AF32 /* start.sh in Resources */ = {isa = PBXBuildFile; fileRef = A536371D1F8732B00012AF32 /* start.sh */; };
+		A544C3B51F85D4ED00CF3A97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A544C3B41F85D4ED00CF3A97 /* AppDelegate.m */; };
+		A544C3BA1F85D4ED00CF3A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A544C3B91F85D4ED00CF3A97 /* Assets.xcassets */; };
+		A544C3BD1F85D4ED00CF3A97 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A544C3BB1F85D4ED00CF3A97 /* MainMenu.xib */; };
+		A544C3CA1F85D53600CF3A97 /* XWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A544C3C91F85D53600CF3A97 /* XWBaseViewController.m */; };
+		A544C3D61F85EA2D00CF3A97 /* XWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A544C3D41F85EA2D00CF3A97 /* XWHomeViewController.m */; };
+		A544C3D71F85EA2D00CF3A97 /* XWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A544C3D51F85EA2D00CF3A97 /* XWHomeViewController.xib */; };
+		A544C3DB1F85EC7700CF3A97 /* XWServerManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A544C3D91F85EC7700CF3A97 /* XWServerManagerViewController.m */; };
+		A544C3DC1F85EC7700CF3A97 /* XWServerManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A544C3DA1F85EC7700CF3A97 /* XWServerManagerViewController.xib */; };
+		A58B7513202EDA3F00E0C2F6 /* XWUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B7512202EDA3F00E0C2F6 /* XWUserInfoModel.m */; };
+		A58B7517202F2BD000E0C2F6 /* XWModSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B7515202F2BD000E0C2F6 /* XWModSettingViewController.m */; };
+		A58B7518202F2BD000E0C2F6 /* XWModSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A58B7516202F2BD000E0C2F6 /* XWModSettingViewController.xib */; };
+		A58B751D202F40B600E0C2F6 /* XWModModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B751C202F40B600E0C2F6 /* XWModModel.m */; };
+		A5B764D0203009A500D85DDC /* XWCheckboxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B764CF203009A500D85DDC /* XWCheckboxCell.xib */; };
+		A5B764D3203009FB00D85DDC /* XWCheckboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B764D2203009FB00D85DDC /* XWCheckboxCell.m */; };
+		A5C9CCFF202D44F2005949B0 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C9CCFE202D44F2005949B0 /* NSString+Extension.m */; };
+		A5C9CD01202D46E4005949B0 /* cluster.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5C9CD00202D46E4005949B0 /* cluster.txt */; };
+		A5C9CD04202D58C1005949B0 /* XWWorldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C9CD03202D58C1005949B0 /* XWWorldModel.m */; };
+		A5C9CD08202D5E25005949B0 /* XWWorldConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C9CD06202D5E25005949B0 /* XWWorldConfigViewController.m */; };
+		A5C9CD09202D5E25005949B0 /* XWWorldConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C9CD07202D5E25005949B0 /* XWWorldConfigViewController.xib */; };
+		A5C9CD0C202D73A7005949B0 /* XWWorldSettingRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C9CD0B202D73A7005949B0 /* XWWorldSettingRowModel.m */; };
+		A5C9CD0E202D8793005949B0 /* cavesettings.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5C9CD0D202D8793005949B0 /* cavesettings.txt */; };
+		A5C9CD10202D87B9005949B0 /* forestsettings.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5C9CD0F202D87B9005949B0 /* forestsettings.txt */; };
+		A5C9CD13202DBA04005949B0 /* XWWorldSettingSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C9CD12202DBA04005949B0 /* XWWorldSettingSelectionCell.xib */; };
+		A5C9CD16202DBAA4005949B0 /* XWWorldSettingSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C9CD15202DBAA4005949B0 /* XWWorldSettingSelectionCell.m */; };
+		A5E8C078202DDFC800C1BD83 /* forestLevelDataOverride.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5E8C077202DDFC800C1BD83 /* forestLevelDataOverride.txt */; };
+		A5E8C07A202DDFF700C1BD83 /* caveLevelDataOverride.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5E8C079202DDFF700C1BD83 /* caveLevelDataOverride.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A50A45F8202CA5FB0068ED82 /* XWMainConfigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWMainConfigViewController.h; sourceTree = "<group>"; };
+		A50A45F9202CA5FB0068ED82 /* XWMainConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWMainConfigViewController.m; sourceTree = "<group>"; };
+		A50A45FA202CA5FB0068ED82 /* XWMainConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XWMainConfigViewController.xib; sourceTree = "<group>"; };
+		A5323919202C94C3008E68F6 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		A532391A202C94C3008E68F6 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		A532391D202CA1DD008E68F6 /* XWMainConfigurationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWMainConfigurationModel.h; sourceTree = "<group>"; };
+		A532391E202CA1DD008E68F6 /* XWMainConfigurationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWMainConfigurationModel.m; sourceTree = "<group>"; };
+		A53637161F8732380012AF32 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53637171F8732380012AF32 /* DSTStarter.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = DSTStarter.entitlements; sourceTree = "<group>"; };
+		A53637181F8732380012AF32 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A536371D1F8732B00012AF32 /* start.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = start.sh; sourceTree = "<group>"; };
+		A544C3B01F85D4ED00CF3A97 /* DSTStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSTStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A544C3B31F85D4ED00CF3A97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A544C3B41F85D4ED00CF3A97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A544C3B91F85D4ED00CF3A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A544C3BC1F85D4ED00CF3A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A544C3C81F85D53600CF3A97 /* XWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWBaseViewController.h; sourceTree = "<group>"; };
+		A544C3C91F85D53600CF3A97 /* XWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWBaseViewController.m; sourceTree = "<group>"; };
+		A544C3D31F85EA2D00CF3A97 /* XWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWHomeViewController.h; sourceTree = "<group>"; };
+		A544C3D41F85EA2D00CF3A97 /* XWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWHomeViewController.m; sourceTree = "<group>"; };
+		A544C3D51F85EA2D00CF3A97 /* XWHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XWHomeViewController.xib; sourceTree = "<group>"; };
+		A544C3D81F85EC7700CF3A97 /* XWServerManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWServerManagerViewController.h; sourceTree = "<group>"; };
+		A544C3D91F85EC7700CF3A97 /* XWServerManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWServerManagerViewController.m; sourceTree = "<group>"; };
+		A544C3DA1F85EC7700CF3A97 /* XWServerManagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XWServerManagerViewController.xib; sourceTree = "<group>"; };
+		A58B7511202EDA3F00E0C2F6 /* XWUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWUserInfoModel.h; sourceTree = "<group>"; };
+		A58B7512202EDA3F00E0C2F6 /* XWUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWUserInfoModel.m; sourceTree = "<group>"; };
+		A58B7514202F2BD000E0C2F6 /* XWModSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWModSettingViewController.h; sourceTree = "<group>"; };
+		A58B7515202F2BD000E0C2F6 /* XWModSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWModSettingViewController.m; sourceTree = "<group>"; };
+		A58B7516202F2BD000E0C2F6 /* XWModSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XWModSettingViewController.xib; sourceTree = "<group>"; };
+		A58B751B202F40B600E0C2F6 /* XWModModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWModModel.h; sourceTree = "<group>"; };
+		A58B751C202F40B600E0C2F6 /* XWModModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWModModel.m; sourceTree = "<group>"; };
+		A5B764CF203009A500D85DDC /* XWCheckboxCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XWCheckboxCell.xib; sourceTree = "<group>"; };
+		A5B764D1203009FB00D85DDC /* XWCheckboxCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWCheckboxCell.h; sourceTree = "<group>"; };
+		A5B764D2203009FB00D85DDC /* XWCheckboxCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCheckboxCell.m; sourceTree = "<group>"; };
+		A5C9CCFC202D378D005949B0 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		A5C9CCFD202D44F2005949B0 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		A5C9CCFE202D44F2005949B0 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		A5C9CD00202D46E4005949B0 /* cluster.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cluster.txt; sourceTree = "<group>"; };
+		A5C9CD02202D58C1005949B0 /* XWWorldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWWorldModel.h; sourceTree = "<group>"; };
+		A5C9CD03202D58C1005949B0 /* XWWorldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWWorldModel.m; sourceTree = "<group>"; };
+		A5C9CD05202D5E25005949B0 /* XWWorldConfigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWWorldConfigViewController.h; sourceTree = "<group>"; };
+		A5C9CD06202D5E25005949B0 /* XWWorldConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWWorldConfigViewController.m; sourceTree = "<group>"; };
+		A5C9CD07202D5E25005949B0 /* XWWorldConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XWWorldConfigViewController.xib; sourceTree = "<group>"; };
+		A5C9CD0A202D73A7005949B0 /* XWWorldSettingRowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWWorldSettingRowModel.h; sourceTree = "<group>"; };
+		A5C9CD0B202D73A7005949B0 /* XWWorldSettingRowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWWorldSettingRowModel.m; sourceTree = "<group>"; };
+		A5C9CD0D202D8793005949B0 /* cavesettings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cavesettings.txt; sourceTree = "<group>"; };
+		A5C9CD0F202D87B9005949B0 /* forestsettings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = forestsettings.txt; sourceTree = "<group>"; };
+		A5C9CD12202DBA04005949B0 /* XWWorldSettingSelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XWWorldSettingSelectionCell.xib; sourceTree = "<group>"; };
+		A5C9CD14202DBAA4005949B0 /* XWWorldSettingSelectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWWorldSettingSelectionCell.h; sourceTree = "<group>"; };
+		A5C9CD15202DBAA4005949B0 /* XWWorldSettingSelectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWWorldSettingSelectionCell.m; sourceTree = "<group>"; };
+		A5E8C077202DDFC800C1BD83 /* forestLevelDataOverride.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = forestLevelDataOverride.txt; sourceTree = "<group>"; };
+		A5E8C079202DDFF700C1BD83 /* caveLevelDataOverride.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = caveLevelDataOverride.txt; sourceTree = "<group>"; };
+		AEBBD626CFA37A848A8FE541 /* Pods-DSTStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSTStarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSTStarter/Pods-DSTStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		C83E03E7181B6DB6955D3642 /* libPods-DSTStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DSTStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE28A595B1238BC33902554F /* Pods-DSTStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSTStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSTStarter/Pods-DSTStarter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A544C3AD1F85D4ED00CF3A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6460CEB0174804517F87B8 /* libPods-DSTStarter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81185F938928CEDE158BB3CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEBBD626CFA37A848A8FE541 /* Pods-DSTStarter.debug.xcconfig */,
+				CE28A595B1238BC33902554F /* Pods-DSTStarter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5323917202C862C008E68F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A5323919202C94C3008E68F6 /* Utils.h */,
+				A532391A202C94C3008E68F6 /* Utils.m */,
+				A5C9CCFC202D378D005949B0 /* Macro.h */,
+				A5C9CCFD202D44F2005949B0 /* NSString+Extension.h */,
+				A5C9CCFE202D44F2005949B0 /* NSString+Extension.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A532391C202CA1CC008E68F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A532391D202CA1DD008E68F6 /* XWMainConfigurationModel.h */,
+				A532391E202CA1DD008E68F6 /* XWMainConfigurationModel.m */,
+				A5C9CD02202D58C1005949B0 /* XWWorldModel.h */,
+				A5C9CD03202D58C1005949B0 /* XWWorldModel.m */,
+				A5C9CD0A202D73A7005949B0 /* XWWorldSettingRowModel.h */,
+				A5C9CD0B202D73A7005949B0 /* XWWorldSettingRowModel.m */,
+				A58B7511202EDA3F00E0C2F6 /* XWUserInfoModel.h */,
+				A58B7512202EDA3F00E0C2F6 /* XWUserInfoModel.m */,
+				A58B751B202F40B600E0C2F6 /* XWModModel.h */,
+				A58B751C202F40B600E0C2F6 /* XWModModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A536371C1F87324F0012AF32 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A53637171F8732380012AF32 /* DSTStarter.entitlements */,
+				A53637161F8732380012AF32 /* Info.plist */,
+				A53637181F8732380012AF32 /* main.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		A544C3A71F85D4ED00CF3A97 = {
+			isa = PBXGroup;
+			children = (
+				A544C3B21F85D4ED00CF3A97 /* DSTStarter */,
+				A544C3B11F85D4ED00CF3A97 /* Products */,
+				81185F938928CEDE158BB3CF /* Pods */,
+				ABE735002EE3EB7DB511C4E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A544C3B11F85D4ED00CF3A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A544C3B01F85D4ED00CF3A97 /* DSTStarter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A544C3B21F85D4ED00CF3A97 /* DSTStarter */ = {
+			isa = PBXGroup;
+			children = (
+				A5C9CD11202DB817005949B0 /* Views */,
+				A532391C202CA1CC008E68F6 /* Model */,
+				A5323917202C862C008E68F6 /* Utils */,
+				A536371C1F87324F0012AF32 /* Support */,
+				A59B2C4C1F8731BF007C4FCC /* Resource */,
+				A544C3C71F85D51C00CF3A97 /* ViewController */,
+				A544C3B31F85D4ED00CF3A97 /* AppDelegate.h */,
+				A544C3B41F85D4ED00CF3A97 /* AppDelegate.m */,
+				A544C3BB1F85D4ED00CF3A97 /* MainMenu.xib */,
+			);
+			path = DSTStarter;
+			sourceTree = "<group>";
+		};
+		A544C3C71F85D51C00CF3A97 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A544C3C81F85D53600CF3A97 /* XWBaseViewController.h */,
+				A544C3C91F85D53600CF3A97 /* XWBaseViewController.m */,
+				A544C3D31F85EA2D00CF3A97 /* XWHomeViewController.h */,
+				A544C3D41F85EA2D00CF3A97 /* XWHomeViewController.m */,
+				A544C3D51F85EA2D00CF3A97 /* XWHomeViewController.xib */,
+				A544C3D81F85EC7700CF3A97 /* XWServerManagerViewController.h */,
+				A544C3D91F85EC7700CF3A97 /* XWServerManagerViewController.m */,
+				A544C3DA1F85EC7700CF3A97 /* XWServerManagerViewController.xib */,
+				A50A45F8202CA5FB0068ED82 /* XWMainConfigViewController.h */,
+				A50A45F9202CA5FB0068ED82 /* XWMainConfigViewController.m */,
+				A50A45FA202CA5FB0068ED82 /* XWMainConfigViewController.xib */,
+				A5C9CD05202D5E25005949B0 /* XWWorldConfigViewController.h */,
+				A5C9CD06202D5E25005949B0 /* XWWorldConfigViewController.m */,
+				A5C9CD07202D5E25005949B0 /* XWWorldConfigViewController.xib */,
+				A58B7514202F2BD000E0C2F6 /* XWModSettingViewController.h */,
+				A58B7515202F2BD000E0C2F6 /* XWModSettingViewController.m */,
+				A58B7516202F2BD000E0C2F6 /* XWModSettingViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A59B2C4C1F8731BF007C4FCC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A544C3B91F85D4ED00CF3A97 /* Assets.xcassets */,
+				A536371D1F8732B00012AF32 /* start.sh */,
+				A5C9CD00202D46E4005949B0 /* cluster.txt */,
+				A5C9CD0D202D8793005949B0 /* cavesettings.txt */,
+				A5C9CD0F202D87B9005949B0 /* forestsettings.txt */,
+				A5E8C077202DDFC800C1BD83 /* forestLevelDataOverride.txt */,
+				A5E8C079202DDFF700C1BD83 /* caveLevelDataOverride.txt */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A5C9CD11202DB817005949B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5C9CD12202DBA04005949B0 /* XWWorldSettingSelectionCell.xib */,
+				A5C9CD14202DBAA4005949B0 /* XWWorldSettingSelectionCell.h */,
+				A5C9CD15202DBAA4005949B0 /* XWWorldSettingSelectionCell.m */,
+				A5B764CF203009A500D85DDC /* XWCheckboxCell.xib */,
+				A5B764D1203009FB00D85DDC /* XWCheckboxCell.h */,
+				A5B764D2203009FB00D85DDC /* XWCheckboxCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABE735002EE3EB7DB511C4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C83E03E7181B6DB6955D3642 /* libPods-DSTStarter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A544C3AF1F85D4ED00CF3A97 /* DSTStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A544C3C41F85D4ED00CF3A97 /* Build configuration list for PBXNativeTarget "DSTStarter" */;
+			buildPhases = (
+				7F2D1025B5EEAED11C7003FC /* [CP] Check Pods Manifest.lock */,
+				A544C3AC1F85D4ED00CF3A97 /* Sources */,
+				A544C3AD1F85D4ED00CF3A97 /* Frameworks */,
+				A544C3AE1F85D4ED00CF3A97 /* Resources */,
+				9DAE75AD71AAAC9528EA43CB /* [CP] Embed Pods Frameworks */,
+				5BEC6D2C96226C8727F2C785 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSTStarter;
+			productName = DSTStarter;
+			productReference = A544C3B01F85D4ED00CF3A97 /* DSTStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A544C3A81F85D4ED00CF3A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Bear;
+				TargetAttributes = {
+					A544C3AF1F85D4ED00CF3A97 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A544C3AB1F85D4ED00CF3A97 /* Build configuration list for PBXProject "DSTStarter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A544C3A71F85D4ED00CF3A97;
+			productRefGroup = A544C3B11F85D4ED00CF3A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A544C3AF1F85D4ED00CF3A97 /* DSTStarter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A544C3AE1F85D4ED00CF3A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A544C3D71F85EA2D00CF3A97 /* XWHomeViewController.xib in Resources */,
+				A58B7518202F2BD000E0C2F6 /* XWModSettingViewController.xib in Resources */,
+				A5C9CD10202D87B9005949B0 /* forestsettings.txt in Resources */,
+				A544C3BA1F85D4ED00CF3A97 /* Assets.xcassets in Resources */,
+				A5C9CD09202D5E25005949B0 /* XWWorldConfigViewController.xib in Resources */,
+				A5C9CD01202D46E4005949B0 /* cluster.txt in Resources */,
+				A536371E1F8732B00012AF32 /* start.sh in Resources */,
+				A5E8C078202DDFC800C1BD83 /* forestLevelDataOverride.txt in Resources */,
+				A5E8C07A202DDFF700C1BD83 /* caveLevelDataOverride.txt in Resources */,
+				A5C9CD13202DBA04005949B0 /* XWWorldSettingSelectionCell.xib in Resources */,
+				A544C3DC1F85EC7700CF3A97 /* XWServerManagerViewController.xib in Resources */,
+				A544C3BD1F85D4ED00CF3A97 /* MainMenu.xib in Resources */,
+				A5C9CD0E202D8793005949B0 /* cavesettings.txt in Resources */,
+				A5B764D0203009A500D85DDC /* XWCheckboxCell.xib in Resources */,
+				A50A45FC202CA5FB0068ED82 /* XWMainConfigViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BEC6D2C96226C8727F2C785 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSTStarter/Pods-DSTStarter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2D1025B5EEAED11C7003FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAE75AD71AAAC9528EA43CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DSTStarter/Pods-DSTStarter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A544C3AC1F85D4ED00CF3A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50A45FB202CA5FB0068ED82 /* XWMainConfigViewController.m in Sources */,
+				A544C3B51F85D4ED00CF3A97 /* AppDelegate.m in Sources */,
+				A5C9CD16202DBAA4005949B0 /* XWWorldSettingSelectionCell.m in Sources */,
+				A544C3DB1F85EC7700CF3A97 /* XWServerManagerViewController.m in Sources */,
+				A5C9CD08202D5E25005949B0 /* XWWorldConfigViewController.m in Sources */,
+				A58B7517202F2BD000E0C2F6 /* XWModSettingViewController.m in Sources */,
+				A532391F202CA1DD008E68F6 /* XWMainConfigurationModel.m in Sources */,
+				A58B751D202F40B600E0C2F6 /* XWModModel.m in Sources */,
+				A5B764D3203009FB00D85DDC /* XWCheckboxCell.m in Sources */,
+				A544C3D61F85EA2D00CF3A97 /* XWHomeViewController.m in Sources */,
+				A5C9CD04202D58C1005949B0 /* XWWorldModel.m in Sources */,
+				A544C3CA1F85D53600CF3A97 /* XWBaseViewController.m in Sources */,
+				A532391B202C94C3008E68F6 /* Utils.m in Sources */,
+				A5C9CD0C202D73A7005949B0 /* XWWorldSettingRowModel.m in Sources */,
+				A58B7513202EDA3F00E0C2F6 /* XWUserInfoModel.m in Sources */,
+				A5C9CCFF202D44F2005949B0 /* NSString+Extension.m in Sources */,
+				A536371A1F8732380012AF32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A544C3BB1F85D4ED00CF3A97 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A544C3BC1F85D4ED00CF3A97 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A544C3C21F85D4ED00CF3A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A544C3C31F85D4ED00CF3A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A544C3C51F85D4ED00CF3A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBBD626CFA37A848A8FE541 /* Pods-DSTStarter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = DSTStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.DSTStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		A544C3C61F85D4ED00CF3A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE28A595B1238BC33902554F /* Pods-DSTStarter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = DSTStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.DSTStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A544C3AB1F85D4ED00CF3A97 /* Build configuration list for PBXProject "DSTStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A544C3C21F85D4ED00CF3A97 /* Debug */,
+				A544C3C31F85D4ED00CF3A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A544C3C41F85D4ED00CF3A97 /* Build configuration list for PBXNativeTarget "DSTStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A544C3C51F85D4ED00CF3A97 /* Debug */,
+				A544C3C61F85D4ED00CF3A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A544C3A81F85D4ED00CF3A97 /* Project object */;
+}

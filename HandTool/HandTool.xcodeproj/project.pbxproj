@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5539FCC1F7951490007F4B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5539FCB1F7951490007F4B4 /* AppDelegate.m */; };
+		A5539FD21F7951490007F4B4 /* HandTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5539FD01F7951490007F4B4 /* HandTool.xcdatamodeld */; };
+		A5539FD41F7951490007F4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5539FD31F7951490007F4B4 /* Assets.xcassets */; };
+		A5539FD71F7951490007F4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5539FD51F7951490007F4B4 /* Main.storyboard */; };
+		A5539FDA1F7951490007F4B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5539FD91F7951490007F4B4 /* main.m */; };
+		A56F1F001F7AA65C007051B1 /* XXXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56F1EFE1F7AA65C007051B1 /* XXXBaseViewController.m */; };
+		A56F1F051F7AA686007051B1 /* XXXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A56F1F031F7AA686007051B1 /* XXXRootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5539FC71F7951490007F4B4 /* HandTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5539FCA1F7951490007F4B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5539FCB1F7951490007F4B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5539FD11F7951490007F4B4 /* HandTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HandTool.xcdatamodel; sourceTree = "<group>"; };
+		A5539FD31F7951490007F4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5539FD61F7951490007F4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5539FD81F7951490007F4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5539FD91F7951490007F4B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5539FDB1F7951490007F4B4 /* HandTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HandTool.entitlements; sourceTree = "<group>"; };
+		A56F1EFD1F7AA65C007051B1 /* XXXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXBaseViewController.h; sourceTree = "<group>"; };
+		A56F1EFE1F7AA65C007051B1 /* XXXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXBaseViewController.m; sourceTree = "<group>"; };
+		A56F1F021F7AA686007051B1 /* XXXRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXRootViewController.h; sourceTree = "<group>"; };
+		A56F1F031F7AA686007051B1 /* XXXRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXRootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5539FC41F7951490007F4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5539FBE1F7951490007F4B4 = {
+			isa = PBXGroup;
+			children = (
+				A5539FC91F7951490007F4B4 /* HandTool */,
+				A5539FC81F7951490007F4B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5539FC81F7951490007F4B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5539FC71F7951490007F4B4 /* HandTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5539FC91F7951490007F4B4 /* HandTool */ = {
+			isa = PBXGroup;
+			children = (
+				A5539FE91F79526A0007F4B4 /* Support */,
+				A5539FE81F7952210007F4B4 /* ViewController */,
+				A5539FE71F79520D0007F4B4 /* Source */,
+				A5539FE61F7951E90007F4B4 /* Data */,
+				A5539FE41F7951CA0007F4B4 /* Start */,
+			);
+			path = HandTool;
+			sourceTree = "<group>";
+		};
+		A5539FE41F7951CA0007F4B4 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				A5539FD91F7951490007F4B4 /* main.m */,
+				A5539FCA1F7951490007F4B4 /* AppDelegate.h */,
+				A5539FCB1F7951490007F4B4 /* AppDelegate.m */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		A5539FE61F7951E90007F4B4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5539FD01F7951490007F4B4 /* HandTool.xcdatamodeld */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		A5539FE71F79520D0007F4B4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A5539FD31F7951490007F4B4 /* Assets.xcassets */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A5539FE81F7952210007F4B4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5539FD51F7951490007F4B4 /* Main.storyboard */,
+				A56F1EFD1F7AA65C007051B1 /* XXXBaseViewController.h */,
+				A56F1EFE1F7AA65C007051B1 /* XXXBaseViewController.m */,
+				A56F1F021F7AA686007051B1 /* XXXRootViewController.h */,
+				A56F1F031F7AA686007051B1 /* XXXRootViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A5539FE91F79526A0007F4B4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A5539FD81F7951490007F4B4 /* Info.plist */,
+				A5539FDB1F7951490007F4B4 /* HandTool.entitlements */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5539FC61F7951490007F4B4 /* HandTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5539FDE1F7951490007F4B4 /* Build configuration list for PBXNativeTarget "HandTool" */;
+			buildPhases = (
+				A5539FC31F7951490007F4B4 /* Sources */,
+				A5539FC41F7951490007F4B4 /* Frameworks */,
+				A5539FC51F7951490007F4B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandTool;
+			productName = HandTool;
+			productReference = A5539FC71F7951490007F4B4 /* HandTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5539FBF1F7951490007F4B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Bear;
+				TargetAttributes = {
+					A5539FC61F7951490007F4B4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5539FC21F7951490007F4B4 /* Build configuration list for PBXProject "HandTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5539FBE1F7951490007F4B4;
+			productRefGroup = A5539FC81F7951490007F4B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5539FC61F7951490007F4B4 /* HandTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5539FC51F7951490007F4B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5539FD41F7951490007F4B4 /* Assets.xcassets in Resources */,
+				A5539FD71F7951490007F4B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5539FC31F7951490007F4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5539FD21F7951490007F4B4 /* HandTool.xcdatamodeld in Sources */,
+				A56F1F051F7AA686007051B1 /* XXXRootViewController.m in Sources */,
+				A5539FDA1F7951490007F4B4 /* main.m in Sources */,
+				A56F1F001F7AA65C007051B1 /* XXXBaseViewController.m in Sources */,
+				A5539FCC1F7951490007F4B4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5539FD51F7951490007F4B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5539FD61F7951490007F4B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5539FDC1F7951490007F4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5539FDD1F7951490007F4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5539FDF1F7951490007F4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HandTool/HandTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = HandTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.HandTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5539FE01F7951490007F4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HandTool/HandTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2FWNJCD9X7;
+				INFOPLIST_FILE = HandTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazybear.HandTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5539FC21F7951490007F4B4 /* Build configuration list for PBXProject "HandTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5539FDC1F7951490007F4B4 /* Debug */,
+				A5539FDD1F7951490007F4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5539FDE1F7951490007F4B4 /* Build configuration list for PBXNativeTarget "HandTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5539FDF1F7951490007F4B4 /* Debug */,
+				A5539FE01F7951490007F4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5539FD01F7951490007F4B4 /* HandTool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5539FD11F7951490007F4B4 /* HandTool.xcdatamodel */,
+			);
+			currentVersion = A5539FD11F7951490007F4B4 /* HandTool.xcdatamodel */;
+			path = HandTool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5539FBF1F7951490007F4B4 /* Project object */;
+}

@@ -1,0 +1,35 @@
+PODS:
+  - LuaScriptCore (1.3.5):
+    - LuaScriptCore/Core (= 1.3.5)
+    - LuaScriptCore/OCLua (= 1.3.5)
+  - LuaScriptCore/Core (1.3.5)
+  - LuaScriptCore/OCLua (1.3.5):
+    - LuaScriptCore/Core
+  - MLHudAlert (0.0.4)
+  - STPrivilegedTask (1.0.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LuaScriptCore
+  - MLHudAlert (from `https://github.com/MacLabs/MLHudAlert.git`)
+  - STPrivilegedTask
+  - YYModel
+
+EXTERNAL SOURCES:
+  MLHudAlert:
+    :git: https://github.com/MacLabs/MLHudAlert.git
+
+CHECKOUT OPTIONS:
+  MLHudAlert:
+    :commit: 3f23fa41632f8935fed028b04335576633ec53a2
+    :git: https://github.com/MacLabs/MLHudAlert.git
+
+SPEC CHECKSUMS:
+  LuaScriptCore: cd1dc06a423f698ce8fb4cd57eb647533cd637c5
+  MLHudAlert: e1654a23a4c1bffbf0fbcea2ef1c5f1c8c5dc896
+  STPrivilegedTask: 103f97827454e786074640cf89d303be344498c7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: ff192dd52685f609727959ee041012344fdb8144
+
+COCOAPODS: 1.2.0
