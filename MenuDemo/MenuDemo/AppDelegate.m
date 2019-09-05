@@ -13,6 +13,9 @@
 @property (nonatomic, strong) FJViewController *homeVC;
 @property (nonatomic, strong) NSWindow * rootWindow;
 @property (nonatomic, strong) NSWindowController *rootWindowController;
+@property (nonatomic, strong) NSStatusItem * statusItem;
+
+@property (nonatomic, strong) NSPopover *popover;
 @end
 
 @implementation AppDelegate
@@ -22,6 +25,26 @@
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    self.statusItem.button.image = [NSImage imageNamed:@"statuBarIcon"];
+    self.statusItem.button.toolTip = @"statusItem";
+    self.statusItem.button.highlighted = YES;
+    [self.statusItem.button setAction:@selector(popoverSwitch)];
+    
+//    NSMenu *subMenu = [[NSMenu alloc] initWithTitle:@"Load_TEXT"];
+//    [subMenu addItemWithTitle:@"Load1"action:@selector(click:) keyEquivalent:@"E"];
+//    [subMenu addItemWithTitle:@"Load2"action:@selector(click:) keyEquivalent:@"R"];
+//    self.statusItem.menu = subMenu;
+    
+    if (!_popover) {
+        _popover = [[NSPopover alloc] init];
+        _popover.contentViewController = [[FJViewController alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
+        _popover.behavior = NSPopoverBehaviorApplicationDefined;
+        [_popover setAnimates:NO];
+    }
+    
+    [self.popover showRelativeToRect:NSZeroRect ofView:self.statusItem.button preferredEdge:NSRectEdgeMinY];
     
     
     self.homeVC = [[FJViewController alloc] initWithFrame:NSMakeRect(100, 100, 500, 500)];
@@ -33,7 +56,16 @@
     self.rootWindow.title = @"Menu Lab";
     [self.rootWindow center];
     [self.rootWindowController showWindow:nil];
+    
+}
 
+-(void)popoverSwitch {
+    if (_popover.isShown) {
+        [_popover close];
+    }
+    else {
+        [self.popover showRelativeToRect:NSZeroRect ofView:self.statusItem.button preferredEdge:NSRectEdgeMinY];
+    }
 }
 
 
