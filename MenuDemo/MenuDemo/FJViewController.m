@@ -75,9 +75,15 @@
     [super viewDidDisappear];
 }
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+}
+
+-(void)loadView {
+//    NSView * vcView = [[NSView alloc] initWithFrame:NSMakeRect(10, 10, 500, 500)];
+//    self.view = vcView;
 }
 
 -(void)click:(NSMenu*)sender {

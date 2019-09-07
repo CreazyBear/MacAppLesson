@@ -32,17 +32,17 @@
     self.statusItem.button.highlighted = YES;
     [self.statusItem.button setAction:@selector(popoverSwitch)];
     
-//    NSMenu *subMenu = [[NSMenu alloc] initWithTitle:@"Load_TEXT"];
-//    [subMenu addItemWithTitle:@"Load1"action:@selector(click:) keyEquivalent:@"E"];
-//    [subMenu addItemWithTitle:@"Load2"action:@selector(click:) keyEquivalent:@"R"];
-//    self.statusItem.menu = subMenu;
+    NSMenu *subMenu = [[NSMenu alloc] initWithTitle:@"Load_TEXT"];
+    [subMenu addItemWithTitle:@"Load1"action:@selector(click:) keyEquivalent:@"E"];
+    [subMenu addItemWithTitle:@"Load2"action:@selector(click:) keyEquivalent:@"R"];
+    self.statusItem.menu = subMenu;
     
-    if (!_popover) {
-        _popover = [[NSPopover alloc] init];
-        _popover.contentViewController = [[FJViewController alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
-        _popover.behavior = NSPopoverBehaviorApplicationDefined;
-        [_popover setAnimates:NO];
-    }
+//    if (!_popover) {
+//        _popover = [[NSPopover alloc] init];
+//        _popover.contentViewController = [[FJViewController alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
+//        _popover.behavior = NSPopoverBehaviorApplicationDefined;
+//        [_popover setAnimates:NO];
+//    }
     
     [self.popover showRelativeToRect:NSZeroRect ofView:self.statusItem.button preferredEdge:NSRectEdgeMinY];
     
